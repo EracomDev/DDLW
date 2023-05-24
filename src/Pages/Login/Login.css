@@ -1,0 +1,47 @@
+.loginBtn {
+    background: var(--loginPrimary);
+    color: #2a2727;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+    transition: all 0.4s;
+    text-transform: uppercase;
+    margin: 20px 0;
+    border: 1px solid transparent;
+    width: 100%;
+}
+
+.loginBtn:hover {
+    background: transparent;
+    color: var(--loginPrimary) !important;
+    border-color: var(--loginPrimary);
+}
+
+/* .connectLoginLeft h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+} */
+
+#loginLink {
+    text-align: center;
+    display: block;
+    color: var(--loginPrimary);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.connectLoginRight p {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 500px) {
+    .loginBtn {
+        font-size: 12px;
+        padding: 10px;
+        margin-bottom: 10px !important;
+    }
+}

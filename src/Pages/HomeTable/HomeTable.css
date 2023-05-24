@@ -1,0 +1,259 @@
+.HomeTable {
+    background-image: url('./../../Images/bg5.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.466);
+    background-blend-mode: overlay;
+    padding-bottom: 50px px;
+    overflow-y: scroll;
+}
+
+.HomeTableLogoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.HomeTableLogoDiv img {
+    width: 150px;
+}
+
+.homeTableTB {
+    /* background: rgba(0, 153, 209, 0.329); */
+    background-image: url('./../../Images/bg10.jpg') !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-color: rgba(0, 0, 0, 0.83) !important;
+    background-blend-mode: overlay !important;
+}
+
+.homeTableTB th {
+    padding: 10px;
+    text-align: center;
+    /* background: var(--loginPrimary); */
+    background: #00ffff38;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.homeTableTB td {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.mb-6 {
+    margin-bottom: 50px;
+}
+
+
+.slideDiv {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    /* background-image: url('./../../Images/bg5.jpg') !important;
+    background-position: center !important;
+    background-size: cover !important; */
+}
+
+.slideDiv {
+    background-image: url('./../../Images/bg11.jpg') !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-color: rgba(0, 0, 0, .83) !important;
+    background-blend-mode: overlay !important;
+}
+
+/* 
+.slideDiv1 {
+    background-image: url('./../../Images/bg4.jpg') !important;
+}
+
+.slideDiv2 {
+    background-image: url('./../../Images/bg4.jpg') !important;
+} */
+.mainHomeDiv {
+    background: black;
+    /* background-image: url('./../../Images/bg11.jpg') !important; */
+    background-position: center !important;
+    background-size: cover !important;
+    background-color: rgba(0, 0, 0, 0.83) !important;
+    background-blend-mode: overlay !important;
+    padding-bottom: 100px;
+}
+
+.owl-theme .owl-nav {
+    display: none;
+}
+
+.owl-theme .owl-dots {
+    margin-top: -30px;
+    z-index: 1;
+    position: relative;
+}
+
+.slideDiv h1 {
+    color: var(--colorPrimary);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-image: linear-gradient(167deg, #00ffff, #00ffff) !important;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-transform: uppercase;
+    font-size: 96px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 600;
+    width: 70%;
+}
+
+.slideDiv h5 {
+    color: var(--colorPrimary);
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0px;
+    font-weight: bold;
+    background-image: linear-gradient(167deg, #00ffff, #00ffff) !important;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-transform: uppercase;
+
+}
+
+.slideDiv p {
+    color: white;
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.slideDiv p span {
+    color: var(--loginPrimary);
+    font-size: 24px;
+}
+
+.HomeTableLogoDiv {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    left: 0;
+    padding: 20px 50px;
+}
+
+.mt-20 {
+    margin-top: -20px !important;
+}
+
+
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
+
+.homeHeading {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--loginPrimary);
+}
+
+.marq h4 {
+    font-size: 20px;
+    margin: 0 !important;
+    color: orange;
+    margin-left: 100px !important;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+}
+
+.marq {
+    background: #004547;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.marq td {
+    color: white;
+}
+
+.pdfDiv {
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    z-index: 9;
+    bottom: 0px;
+    color: cyan;
+}
+
+.pdfDiv:hover {
+    color: rgb(25, 134, 134);
+}
+
+.pdfDiv i {
+    font-size: 25px;
+}
+
+.pdfDiv p {
+    font-size: 10px
+}
+
+@media (max-width: 768px) {
+    .homeTableTB th {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .HomeTableLogoDiv {
+        padding: 10px 10px;
+    }
+
+    .HomeTableLogoDiv {
+        flex-direction: column;
+    }
+
+    .btnConnect {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .HomeTableLogoDiv img {
+        margin-bottom: 15px;
+    }
+
+    .slideDiv h1 {
+        font-size: 30px;
+        width: 95%;
+    }
+
+    .slideDiv h5 {
+        font-size: 16px;
+    }
+
+    .slideDiv p {
+        color: white;
+        width: 95%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .mainHomeDiv {
+        padding-bottom: 100px;
+        padding-top: 85px;
+    }
+}
