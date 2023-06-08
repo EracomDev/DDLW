@@ -207,7 +207,7 @@ const HomeTable = () => {
           <img src={Logo} alt="" />
           <div>
             <a className="loginBtn" style={{ marginRight: "10px" }} href={PDF} target="_black">
-              More Info
+              <i><BsInfoCircleFill /> </i>More Info
             </a>
             <Link className="loginBtn" onClick={automaticLoginDB}>
               Login

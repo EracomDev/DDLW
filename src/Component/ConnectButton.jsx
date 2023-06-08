@@ -26,7 +26,7 @@ const ConnectButton = (props) => {
         }
     }
     useEffect(() => {
-        checkWalletIsConnected();
+        // checkWalletIsConnected();
     }, [])
     useEffect(() => {
         // initiate web3modal
